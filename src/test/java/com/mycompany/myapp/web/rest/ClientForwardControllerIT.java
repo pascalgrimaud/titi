@@ -1,6 +1,6 @@
 package com.mycompany.myapp.web.rest;
 
-import com.mycompany.myapp.TitiApp;
+import com.mycompany.myapp.MsIgniteApp;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * Integration tests for the {@link ClientForwardController} REST controller.
  */
-@SpringBootTest(classes = TitiApp.class)
+@SpringBootTest(classes = MsIgniteApp.class)
 public class ClientForwardControllerIT {
 
     private MockMvc restMockMvc;

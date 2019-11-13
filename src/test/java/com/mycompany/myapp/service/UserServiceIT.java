@@ -1,6 +1,6 @@
 package com.mycompany.myapp.service;
 
-import com.mycompany.myapp.TitiApp;
+import com.mycompany.myapp.MsIgniteApp;
 import com.mycompany.myapp.config.Constants;
 import com.mycompany.myapp.domain.User;
 import com.mycompany.myapp.repository.UserRepository;
@@ -31,7 +31,7 @@ import static org.mockito.Mockito.when;
 /**
  * Integration tests for {@link UserService}.
  */
-@SpringBootTest(classes = TitiApp.class)
+@SpringBootTest(classes = MsIgniteApp.class)
 @Transactional
 public class UserServiceIT {
 

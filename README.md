@@ -1,4 +1,4 @@
-# titi
+# msIgnite
 
 This application was generated using JHipster 6.5.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.5.0](https://www.jhipster.tech/documentation-archive/v6.5.0).
 
@@ -91,7 +91,7 @@ will generate few files:
 
 ### Packaging as jar
 
-To build the final jar and optimize the titi application for production, run:
+To build the final jar and optimize the msIgnite application for production, run:
 
     ./mvnw -Pprod clean verify
 

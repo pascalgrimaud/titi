@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed, inject } from '@angular/core/testing';
 import { FormBuilder } from '@angular/forms';
 import { of, throwError } from 'rxjs';
 
-import { TitiTestModule } from '../../../../test.module';
+import { MsIgniteTestModule } from '../../../../test.module';
 import { PasswordResetInitComponent } from 'app/account/password-reset/init/password-reset-init.component';
 import { PasswordResetInitService } from 'app/account/password-reset/init/password-reset-init.service';
 import { EMAIL_NOT_FOUND_TYPE } from 'app/shared/constants/error.constants';
@@ -14,7 +14,7 @@ describe('Component Tests', () => {
 
     beforeEach(() => {
       fixture = TestBed.configureTestingModule({
-        imports: [TitiTestModule],
+        imports: [MsIgniteTestModule],
         declarations: [PasswordResetInitComponent],
         providers: [FormBuilder]
       })

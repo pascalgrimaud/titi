@@ -57,7 +57,7 @@ management:
 
 spring:
   application:
-    name: titi
+    name: msIgnite
   profiles:
     # The commented value for `active` can be replaced with valid Spring profiles to load.
     # Otherwise, it will be filled in by maven when building the JAR file
@@ -87,13 +87,13 @@ spring:
       enabled: false
   task:
     execution:
-      thread-name-prefix: titi-task-
+      thread-name-prefix: ms-ignite-task-
       pool:
         core-size: 2
         max-size: 50
         queue-capacity: 10000
     scheduling:
-      thread-name-prefix: titi-scheduling-
+      thread-name-prefix: ms-ignite-scheduling-
       pool:
         size: 2
   thymeleaf:
@@ -121,7 +121,7 @@ info:
 
 jhipster:
   clientApp:
-    name: 'titiApp'
+    name: 'msIgniteApp'
   # By default CORS is disabled. Uncomment to enable.
   # cors:
   #     allowed-origins: "*"
@@ -131,11 +131,11 @@ jhipster:
   #     allow-credentials: true
   #     max-age: 1800
   mail:
-    from: titi@localhost
+    from: msIgnite@localhost
   swagger:
     default-include-pattern: /api/.*
-    title: titi API
-    description: titi API documentation
+    title: msIgnite API
+    description: msIgnite API documentation
     version: 0.0.1
     terms-of-service-url:
     contact-name:

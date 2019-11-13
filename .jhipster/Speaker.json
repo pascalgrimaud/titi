@@ -1,0 +1,24 @@
+{
+    "name": "Speaker",
+    "fields": [
+        {
+            "fieldName": "name",
+            "javadoc": "fieldName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20191113113914",
+    "javadoc": "The Speaker entity.\\n@author A true hn",
+    "entityTableName": "speaker",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "msIgnite"
+    ]
+}

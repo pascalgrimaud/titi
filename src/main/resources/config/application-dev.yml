@@ -37,8 +37,8 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:h2:file:./target/h2db/db/titi;DB_CLOSE_DELAY=-1
-    username: titi
+    url: jdbc:h2:file:./target/h2db/db/msignite;DB_CLOSE_DELAY=-1
+    username: msIgnite
     password:
     hikari:
       poolName: Hikari

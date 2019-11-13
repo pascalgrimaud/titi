@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 import { FormBuilder } from '@angular/forms';
 import { throwError } from 'rxjs';
 
-import { TitiTestModule } from '../../../test.module';
+import { MsIgniteTestModule } from '../../../test.module';
 import { AccountService } from 'app/core/auth/account.service';
 import { Account } from 'app/core/user/account.model';
 import { SettingsComponent } from 'app/account/settings/settings.component';
@@ -15,7 +15,7 @@ describe('Component Tests', () => {
 
     beforeEach(async(() => {
       TestBed.configureTestingModule({
-        imports: [TitiTestModule],
+        imports: [MsIgniteTestModule],
         declarations: [SettingsComponent],
         providers: [FormBuilder]
       })

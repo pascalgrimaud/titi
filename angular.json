@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "titi": {
+    "ms-ignite": {
       "root": "",
       "sourceRoot": "src/main/webapp",
       "projectType": "application",
@@ -29,7 +29,7 @@
       "architect": {}
     }
   },
-  "defaultProject": "titi",
+  "defaultProject": "ms-ignite",
   "cli": {
     "packageManager": "npm"
   }
