@@ -2,10 +2,10 @@
   "generator-jhipster": {
     "applicationType": "monolith",
     "gitCompany": "",
-    "baseName": "titi",
+    "baseName": "msIgnite",
     "packageName": "com.mycompany.myapp",
     "packageFolder": "com/mycompany/myapp",
-    "serverPort": 8080,
+    "serverPort": "8080",
     "serviceDiscoveryType": false,
     "authenticationType": "jwt",
     "uaaBaseName": "../uaa",
@@ -25,7 +25,8 @@
     "enableTranslation": true,
     "nativeLanguage": "en",
     "languages": [
-      "en"
+      "en",
+      "fr"
     ],
     "clientFramework": "angularX",
     "jhiPrefix": "jhi",
@@ -35,10 +36,18 @@
     "clientTheme": "none",
     "entitySuffix": "",
     "dtoSuffix": "DTO",
-    "otherModules": [],
-    "blueprints": []
+    "blueprints": [],
+    "skipClient": false,
+    "skipServer": false,
+    "skipUserManagement": false,
+    "clientThemeVariant": "",
+    "otherModules": []
   },
   "git-provider": "GitHub",
   "git-company": "avdev4j",
-  "repository-name": "titi"
+  "repository-name": "titi",
+  "entities": [
+    "Speaker",
+    "Conference"
+  ]
 }

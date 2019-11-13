@@ -2,7 +2,7 @@ package com.mycompany.myapp.service;
 
 import com.mycompany.myapp.config.Constants;
 
-import com.mycompany.myapp.TitiApp;
+import com.mycompany.myapp.MsIgniteApp;
 import com.mycompany.myapp.domain.User;
 import io.github.jhipster.config.JHipsterProperties;
 import org.junit.jupiter.api.BeforeEach;
@@ -40,11 +40,12 @@ import static org.mockito.Mockito.*;
 /**
  * Integration tests for {@link MailService}.
  */
-@SpringBootTest(classes = TitiApp.class)
+@SpringBootTest(classes = MsIgniteApp.class)
 public class MailServiceIT {
 
     private static String languages[] = {
-        "en"
+        "en",
+        "fr"
         // jhipster-needle-i18n-language-constant - JHipster will add/remove languages in this array
     };
     private static final Pattern PATTERN_LOCALE_3 = Pattern.compile("([a-z]{2})-([a-zA-Z]{4})-([a-z]{2})");

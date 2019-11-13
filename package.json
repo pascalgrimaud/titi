@@ -1,7 +1,7 @@
 {
-  "name": "titi",
+  "name": "ms-ignite",
   "version": "0.0.1-SNAPSHOT",
-  "description": "Description for titi",
+  "description": "Description for msIgnite",
   "private": true,
   "license": "UNLICENSED",
   "cacheDirectories": [

@@ -22,7 +22,7 @@ const LAYOUT_ROUTES = [navbarRoute, ...errorRoute];
         },
         {
           path: 'account',
-          loadChildren: () => import('./account/account.module').then(m => m.TitiAccountModule)
+          loadChildren: () => import('./account/account.module').then(m => m.MsIgniteAccountModule)
         },
         ...LAYOUT_ROUTES
       ],
@@ -31,4 +31,4 @@ const LAYOUT_ROUTES = [navbarRoute, ...errorRoute];
   ],
   exports: [RouterModule]
 })
-export class TitiAppRoutingModule {}
+export class MsIgniteAppRoutingModule {}

@@ -1,6 +1,6 @@
 package com.mycompany.myapp.security;
 
-import com.mycompany.myapp.TitiApp;
+import com.mycompany.myapp.MsIgniteApp;
 import com.mycompany.myapp.domain.User;
 import com.mycompany.myapp.repository.UserRepository;
 
@@ -22,7 +22,7 @@ import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 /**
  * Integrations tests for {@link DomainUserDetailsService}.
  */
-@SpringBootTest(classes = TitiApp.class)
+@SpringBootTest(classes = MsIgniteApp.class)
 @Transactional
 public class DomainUserDetailsServiceIT {
 

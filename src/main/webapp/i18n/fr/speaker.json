@@ -1,0 +1,25 @@
+{
+  "msIgniteApp": {
+    "speaker": {
+      "home": {
+        "title": "Speakers",
+        "createLabel": "Créer un nouveau Speaker",
+        "createOrEditLabel": "Créer ou éditer un Speaker",
+        "notFound": "Aucun Speaker trouvé"
+      },
+      "created": "Un nouveau Speaker a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Speaker avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Speaker avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Speaker {{ id }} ?"
+      },
+      "detail": {
+        "title": "Speaker"
+      },
+      "name": "Name",
+      "help": {
+        "name": "fieldName"
+      }
+    }
+  }
+}

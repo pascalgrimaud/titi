@@ -1,0 +1,36 @@
+{
+    "name": "Conference",
+    "fields": [
+        {
+            "fieldName": "name",
+            "javadoc": "fieldName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "schedule",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "speaker",
+            "otherEntityRelationshipName": "conference",
+            "relationshipName": "speaker",
+            "otherEntityField": "name"
+        }
+    ],
+    "changelogDate": "20191113113915",
+    "javadoc": "The Conference entity.\\n@author A true hipster",
+    "entityTableName": "conference",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "msIgnite"
+    ]
+}

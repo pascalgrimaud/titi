@@ -1,6 +1,6 @@
 package com.mycompany.myapp.repository;
 
-import com.mycompany.myapp.TitiApp;
+import com.mycompany.myapp.MsIgniteApp;
 import com.mycompany.myapp.config.Constants;
 import com.mycompany.myapp.config.audit.AuditEventConverter;
 import com.mycompany.myapp.domain.PersistentAuditEvent;
@@ -27,7 +27,7 @@ import static com.mycompany.myapp.repository.CustomAuditEventRepository.EVENT_DA
 /**
  * Integration tests for {@link CustomAuditEventRepository}.
  */
-@SpringBootTest(classes = TitiApp.class)
+@SpringBootTest(classes = MsIgniteApp.class)
 @Transactional
 public class CustomAuditEventRepositoryIT {
 
