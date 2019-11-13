@@ -1,0 +1,37 @@
+/**
+ * The application configuration.
+ * @author A true hipster
+ */
+application {
+    config {
+        baseName msIgnite
+        applicationType monolith
+    }
+    entities *
+}
+
+/**
+ * The Speaker entity.
+ * @author A true hn
+ */
+entity Speaker {
+    /** fieldName */
+    name String
+}
+
+/**
+ * The Conference entity.
+ * @author A true hipster
+ */
+entity Conference {
+    /** fieldName */
+    name String
+    schedule Instant
+}
+
+/**
+ * Many to one relationship.
+ */
+relationship ManyToOne {
+    Conference{Speaker(name)} to Speaker
+}
